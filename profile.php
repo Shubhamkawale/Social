@@ -79,7 +79,7 @@ else {
   <header class="hidden-sm hidden-md hidden-lg">
         <div class="searchbox">
             <form>
-                <h1 class="text-left">Social Network</h1>
+                <h1 class="text-left">Social</h1>
                 <div class="searchbox"><i class="glyphicon glyphicon-search"></i>
                     <input class="form-control" type="text">
                 </div>
@@ -136,7 +136,7 @@ else {
         </nav>
     </div>
     <div class="container">
-        <h1><?php echo $first_name.' '.$last_name; ?><i class="glyphicon glyphicon-ok-sign verified" data-toggle="tooltip" title="Verified User" style="font-size:28px;color:#da052b;"></i></h1></div>
+        <h1><?php echo $first_name.' '.$last_name; ?></h1></div>
     <div>
         <div class="container">
             <div class="row">
