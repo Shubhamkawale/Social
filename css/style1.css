@@ -8,22 +8,22 @@ html {
 
 body {
     font-style: oblique;
-  background: #008080; /* #c1bdba */
+    background: /*#008080  #c1bdba*/#ffffff ;
   font-family: Titillium Web;
 }
 
 a {
   text-decoration: none;
-  color: #1ab188;
+  color: #000000;
   -webkit-transition: .5s ease;
   transition: .5s ease;
 }
 a:hover {
-  color: #179b77;
+  color: #000000;
 }
 
 .form {
-  background: rgba(19, 35, 47, 0.9); 
+  background: rgba(240,255,255,1); 
   padding: 40px;
   max-width: 600px;
   margin: 40px auto;
@@ -45,8 +45,8 @@ a:hover {
   display: block;
   text-decoration: none;
   padding: 15px;
-  background: rgba(160, 179, 176, 0.25);
-  color: #a0b3b0;
+  background: rgba(224,255,255,1);
+  color: #000000;
   font-size: 20px;
   float: left;
   width: 50%;
@@ -56,12 +56,12 @@ a:hover {
   transition: .5s ease;
 }
 .tab-group li a:hover {
-  background: #179b77;
-  color: #ffffff;
+  background: #7FFFD4;
+  color:#179b77 ;
 }
 .tab-group .active a {
-  background: #1ab188;
-  color: #ffffff;
+  background: #00CED1;
+  color:#1ab188 ;
 }
 
 .tab-content > div:last-child {
@@ -71,26 +71,26 @@ a:hover {
 h1 {
     
   text-align: center;
-  color: #ffffff;
+  color: #000000;
   font-weight: 300;
   margin: 0 0 40px;
 }
 
 h2 {
     text-align: center;
-    color: #1ab188;
+    color: #000000;
     font-weight: 100;
     margin: 0;
 }
 
 span {
-    color: #1ab188;
+    color: #000000;
     font-weight: bold;
 }
 
 p {
     text-align: center;
-    color: #ffffff;
+    color: #000000;
     margin: 0px 0px 50px 0px;
 }
 
@@ -102,24 +102,26 @@ div.info {
     margin-top: -20px;
     margin-bottom: 15px;
     border: 1px solid red;
-    background: #66131c;
+    background: #ffffff;
 }
 
 label {
+    font-weight: 100;
   position: absolute;
   -webkit-transform: translateY(6px);
           transform: translateY(6px);
   left: 13px;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(000, 000, 000, 0.5);
   -webkit-transition: all 0.25s ease;
   transition: all 0.25s ease;
   -webkit-backface-visibility: hidden;
   pointer-events: none;
   font-size: 22px;
 }
-label .req {
+label .req1 {
+    
   margin: 2px;
-  color: #1ab188;
+  color: #000000;
 }
 
 label.active {
@@ -128,25 +130,25 @@ label.active {
   left: 2px;
   font-size: 14px;
 }
-label.active .req {
-  opacity: 100;
+label.active .req1 {
+  opacity: 0;
 }
 
 label.highlight {
-  color: #ffffff;
+  color: #000000;
 }
 
 input, textarea {
     
-  font-size: 22px;
+  font-size: 30px;
   display: block;
   width: 100%;
-  height: 100%;
+  height: 10xp;
   padding: 5px 10px;
   background: none;
   background-image: none;
-  border: 1px solid #a0b3b0;
-  color: #ffffff;
+  border: 1px solid #ffffff;
+  color: #000000;
   border-radius: 0;
   -webkit-transition: border-color .25s ease, box-shadow .25s ease;
   transition: border-color .25s ease, box-shadow .25s ease;
@@ -157,8 +159,11 @@ input:focus, textarea:focus {
 }
 
 textarea {
-  border: 2px solid #a0b3b0;
+   
+    
+  border: 2px solid 	#48D1CC;
   resize: vertical;
+  
 }
 
 .field-wrap {
@@ -190,7 +195,7 @@ textarea {
   font-style: oblique;
   text-transform: uppercase;
   letter-spacing: .1em;
-  background: #1ab188;
+  background: #00CED1;
   color: #ffffff;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -204,7 +209,7 @@ textarea {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: .1em;
-  background: #1ab188;
+  background: #00CED1;
   color: #ffffff;
   -webkit-transition: all 0.5s ease;
   float: right;
@@ -213,7 +218,7 @@ textarea {
   
 }
 .button:hover, .button:focus {
-  background: #179b77;
+  background: #48D1CC;
 }
 
 .button-block {
@@ -225,59 +230,12 @@ textarea {
   margin-top: -20px;
   text-align: right;
 }
-.col25{
-    float: right;
-    width: 20%;
-}
-.col75{
-    float: left;
-    width: 80%;
-}
+
 .container {
     width: 100%;
     border: 1px solid gray;
 }
 
-header, footer {
-    height: 130px;
-    padding: 1em;
-    color: white;
-    background-color: black;
+
     
-    
-}
-.col{
-    padding: 8px 0;
-  font-size: 1rem;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: .1em;
-  background: #1ab188;
-  color: #ffffff;
-  -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-    text-align: left;
-    
-    width:170px;
-}
 
-
-
-
-article {
-    width :80%;
-    border-left: 1px solid gray;
-    padding: 1em;
-    overflow: hidden;
-}
-T1 {
-  text-align: left;
-  color: #ffffff;
-  font-weight: 600;
-  margin: 0 0 40px;
-  font-size: 100px;
-  font-style: oblique;
-}
-.text{
-    width: auto;
-}
